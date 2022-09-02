@@ -30,8 +30,9 @@
     overflow: hidden;
     transition: all 0.25s;
     border: 0px;
-    &:hover {
-        transform: translateY(-15px);
-        box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-    }
+}
+
+.card-hover:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
