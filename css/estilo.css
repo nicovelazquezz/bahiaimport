@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+.bolder {
+  font-weight: bolder; }
+
+.box-rrss a:hover {
+  animation: saltar 1s ease-in-out 1 normal both; }
+
+.box-rrss--icon {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #bdbdbd;
+  background-color: #040404;
+  text-align: center;
+  transition: all 300ms ease;
+  margin-right: 45px; }
+
+@keyframes saltar {
+  from,
+  65%,
+  85%,
+  to {
+    transform: translateY(0) scale(1, 1); }
+  15% {
+    transform: translateY(-1rem) scale(1, 1.2); }
+  35%,
+  45% {
+    transform: translateY(-2rem) scale(1, 1.08); }
+  75% {
+    transform: translateY(0.5rem) scale(1.2, 0.8); }
+  95% {
+    transform: translateY(0) scale(1.05, 1.05); } }
+
+.caja-iframe:hover {
+  transition: all 500ms;
+  transform: scale(1.2) translateY(-45px); }
+
+.caja-iframe iframe {
+  width: 100%;
+  height: 90%;
+  border-radius: 3px;
+  margin-right: 5px; }
+
+* {
+  font-family: 'Raleway', sans-serif; }
+
+.bg-img {
+  background-image: url("https://timstrifler.com/wp-content/uploads/sites/9/2015/11/awhCbhLqRceCdjcPQUnn_IMG_0249.jpg");
+  min-width: 100vw;
+  padding-bottom: 55px;
+  padding-top: 10px; }
+  .bg-img .box-contact {
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.2); }
+    .bg-img .box-contact .boxh3 {
+      box-shadow: 0px 6px 7px 8px rgba(0, 0, 0, 0.22);
+      -webkit-box-shadow: 0px 6px 7px 8px rgba(0, 0, 0, 0.22);
+      -moz-box-shadow: 0px 6px 7px 8px rgba(0, 0, 0, 0.22);
+      color: darkgray;
+      font-weight: 600; }
+
+.card-border {
+  border-radius: 15px;
+  padding-bottom: 25px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: all 0.25s;
+  border: 0px; }
+  .card-border:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); }
