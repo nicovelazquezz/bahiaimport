@@ -1,0 +1,21 @@
+@media screen and (max-width:768px) and (min-width: 300px) { 
+
+    /* QUERIS FOOTER */
+    .box-redes {
+    display: flex;  
+    width: 100vw;    
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .box-redes-icon {
+        margin: 0px 0px 50px 0px        
+    }
+    /* FIN QUERIS FOOTER */
+    
+    /* QUERIS IMAGEN CAROUSEL */
+    .carousel-img {
+        height: 25vh;
+    }
+}
+

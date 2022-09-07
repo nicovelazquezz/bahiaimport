@@ -1,8 +1,8 @@
-.box-rrss {
+.box-redes {
     a:hover {        
         animation: saltar 1s ease-in-out 1 normal both;
     }
-    &--icon {
+    &-icon {
         display: inline-block;
         width: 45px;
         height: 45px;
@@ -11,29 +11,7 @@
         background-color: #040404;
         text-align: center;
         transition: all 300ms ease;
-        margin-right: 45px;
-    }
-}
-
-@keyframes saltar {
-    from,
-    65%,
-    85%,
-    to {
-        transform: translateY(0) scale(1, 1);
-    }
-    15% {
-        transform: translateY(-1rem) scale(1, 1.2);
-    }
-    35%,
-    45% {
-        transform: translateY(-2rem) scale(1, 1.08);
-    }
-    75% {
-        transform: translateY(.5rem) scale(1.2, .8);
-    }
-    95% {
-        transform: translateY(0) scale(1.05, 1.05);
+        margin-right: 3rem;
     }
 }
 
@@ -49,5 +27,4 @@
         margin-right: 5px;
     }
 }
-
 

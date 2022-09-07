@@ -1,0 +1,21 @@
+@keyframes saltar {
+    from,
+    65%,
+    85%,
+    to {
+        transform: translateY(0) scale(1, 1);
+    }
+    15% {
+        transform: translateY(-1rem) scale(1, 1.2);
+    }
+    35%,
+    45% {
+        transform: translateY(-2rem) scale(1, 1.08);
+    }
+    75% {
+        transform: translateY(.5rem) scale(1.2, .8);
+    }
+    95% {
+        transform: translateY(0) scale(1.05, 1.05);
+    }
+}
