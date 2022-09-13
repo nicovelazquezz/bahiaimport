@@ -19,3 +19,30 @@
         transform: translateY(0) scale(1.05, 1.05);
     }
 }
+
+
+// HOVER FOOTER ICONOS DE REDES
+
+.fa-facebook {
+    &:hover {
+        color: map-get($colores-redes, fb)
+    }
+}
+
+.fa-twitter {
+    &:hover {
+        color: map-get($colores-redes, tw)
+    }
+}
+
+.fa-instagram {
+    &:hover {
+        color: map-get($colores-redes, ig)
+    }
+}
+
+.fa-whatsapp {
+    &:hover {
+        color: map-get($colores-redes, wp)
+    }
+}

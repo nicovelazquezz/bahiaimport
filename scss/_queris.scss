@@ -11,11 +11,19 @@
     .box-redes-icon {
         margin: 0px 0px 50px 0px        
     }
+    
+    .caja-iframe {
+        &:hover {
+            transition: all 500ms;
+            transform: scale(1.2) translateY(-45px);}            
+        }
+
     /* FIN QUERIS FOOTER */
     
     /* QUERIS IMAGEN CAROUSEL */
     .carousel-img {
         height: 25vh;
     }
-}
 
+
+    }

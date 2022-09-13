@@ -18,6 +18,18 @@
   95% {
     transform: translateY(0) scale(1.05, 1.05); } }
 
+.fa-facebook:hover {
+  color: #1877f2; }
+
+.fa-twitter:hover {
+  color: #1DA1F2; }
+
+.fa-instagram:hover {
+  color: #D43089; }
+
+.fa-whatsapp:hover {
+  color: #25D366; }
+
 .card-border {
   border-radius: 15px;
   padding-bottom: 25px;
@@ -59,7 +71,7 @@
 
 .caja-iframe:hover {
   transition: all 500ms;
-  transform: scale(1.2) translateY(-45px); }
+  transform: scale(1.5) translateY(-45px); }
 
 .caja-iframe iframe {
   width: 100%;
@@ -76,6 +88,9 @@
     align-items: center; }
   .box-redes-icon {
     margin: 0px 0px 50px 0px; }
+  .caja-iframe:hover {
+    transition: all 500ms;
+    transform: scale(1.2) translateY(-45px); }
   /* FIN QUERIS FOOTER */
   /* QUERIS IMAGEN CAROUSEL */
   .carousel-img {
