@@ -1,5 +1,11 @@
 // MAIN PAGE INDEX
 
+.text-welcome {
+    font-size: 38px;
+    color: map-get($colores-layout, blanco);
+    -webkit-text-stroke: 1.5px #383d52;
+}
+
 .card-border {
     border-radius: 15px;
     padding-bottom: 25px;
@@ -11,6 +17,14 @@
         transform: translateY(-15px);        
         @include box-shadow(0 12px 16px rgba(0, 0, 0, 0.2)); 
     }
+}
+
+// MAIN PRODUCTOS
+
+.productos-destacados {
+    @extend .text-welcome;
+    font-size: 30px;
+    text-shadow: 1px 5px 6px rgba(67,67,67,0.64);
 }
 
 

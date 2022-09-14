@@ -1,8 +1,8 @@
-.bolder {
-    font-weight: bolder;
-}
-
-$color1:rgb(83, 83, 83);
+$colores-layout: (
+    blanco: #fff,
+    negro: #000,
+    gris: #808080
+);
 
 // MAP - Colores hover redes footer
 
@@ -11,4 +11,4 @@ $colores-redes: (
     wp: #25D366,
     ig: #D43089,
     tw: #1DA1F2
-)
+);
