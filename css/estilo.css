@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-.text-welcome, .productos-destacados {
+.text-welcome, .productos-destacados, .text-marcas {
   font-size: 38px;
   color: #fff;
   -webkit-text-stroke: 1.5px #383d52; }
@@ -22,6 +22,9 @@
 .productos-destacados {
   font-size: 30px;
   text-shadow: 1px 5px 6px rgba(67, 67, 67, 0.64); }
+
+.text-marcas {
+  font-size: 30px; }
 
 .bg-img {
   background-image: url("https://timstrifler.com/wp-content/uploads/sites/9/2015/11/awhCbhLqRceCdjcPQUnn_IMG_0249.jpg");

@@ -27,6 +27,11 @@
     text-shadow: 1px 5px 6px rgba(67,67,67,0.64);
 }
 
+.text-marcas {
+    @extend .text-welcome;
+    font-size: 30px;
+}
+
 
 // MAIN PAGE CONTACTO
 
